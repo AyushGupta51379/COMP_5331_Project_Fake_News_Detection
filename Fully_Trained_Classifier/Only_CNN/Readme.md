@@ -12,7 +12,7 @@ The ipynb notebook is what you can directly run.
 
 # Accuracy 0.69/1 = 0.69%, Cohen kappa score 0.38/1 = 0.38%
 
-# Performs better than random.
+# Performs much better than random. Overall, moderate performance.
 
 Confusion matrix:
 
@@ -28,11 +28,8 @@ array([
 
 6636 test images, with 3619 of rumor and 3017 of nonrumor.
 
-Accurately predicted 
-2791/3619 = 77.12% of rumor images,
+### Accurately predicted  2791/3619 = 77.12% of rumor images, and 
 
-and 
+### 1833/3017 = 60.75% of non rumor images.
 
-1833/3017 = 60.75% of non rumor images.
-
-Overall, accuracy = 4624/6636 = 69.68%.
+### Overall, accuracy = 4624/6636 = 69.68%.
