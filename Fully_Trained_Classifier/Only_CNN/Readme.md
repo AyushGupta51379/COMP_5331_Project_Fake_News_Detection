@@ -16,5 +16,10 @@ The ipynb notebook is what you can directly run.
 
 Confusion matrix:
 
-array([[1833,  828],
-       [1184, 2791]])
+array([
+
+[1833,  828],
+
+[1184, 2791]
+       
+])
