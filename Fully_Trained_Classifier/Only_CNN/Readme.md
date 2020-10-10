@@ -16,6 +16,8 @@ The ipynb notebook is what you can directly run.
 
 Confusion matrix:
 
+non rumor, rumor
+
 array([
 
 [1833,  828],
@@ -23,3 +25,14 @@ array([
 [1184, 2791]
        
 ])
+
+6636 test images, with 3619 of rumor and 3017 of nonrumor.
+
+Accurately predicted 
+2791/3619 = 77.12% of rumor images,
+
+and 
+
+1833/3017 = 60.75% of non rumor images.
+
+Overall, accuracy = 4624/6636 = 69.68%.
