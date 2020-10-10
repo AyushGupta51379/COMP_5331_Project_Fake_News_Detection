@@ -33,3 +33,7 @@ array([
 ### 1833/3017 = 60.75% of non rumor images.
 
 ### Overall, accuracy = 4624/6636 = 69.68%.
+
+# You only need to run the ipynb notebook.
+
+The other files are just there for debugging how the distribution of data set occured.
