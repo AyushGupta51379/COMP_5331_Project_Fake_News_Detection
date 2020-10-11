@@ -6,7 +6,13 @@ To make a combined python notebook, in which we can add our model, then run it.
 Currently, it uses a very simple CNN model.
 
 # Run
-The ipynb notebook is what you can directly run.
+
+### The ipynb notebook is what you can directly run.
+
+### You can visit this colab link: https://colab.research.google.com/drive/1Gn6MFglgYsezdccKExZqGafvH7I4N4B7?usp=sharing
+
+Please do 'Save a copy in drive', then you can edit the new opened tab with a copy.
+
 
 # Just CNN model. Trained on Google Colab using GPU. Takes 1-1.5 hours maximum.
 
