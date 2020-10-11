@@ -1,3 +1,5 @@
+# Basleline model - This is our baseline model, on pixel info, uses CNN only.
+
 # Purpose
 
 To make a combined python notebook, in which we can add our model, then run it.
