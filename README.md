@@ -1,6 +1,16 @@
 # COMP_5331_Project_Fake_News_Detection
 
-# Ayush
+## Folders
+
+### Fully_trained_classifier
+
+### Temporary_models
+
+# Good Github practices 
+
+#### Use Readme folder to post updates, it allows easier collaboration, to learn what each code does
+
+# Ayush updates -
 
 ## Pytorch_Attention_COMP_5331_Ayush.ipynb
 
