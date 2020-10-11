@@ -11,16 +11,16 @@ Currently, it uses a very simple CNN model.
 
 ### You can visit this colab link: https://colab.research.google.com/drive/1Gn6MFglgYsezdccKExZqGafvH7I4N4B7?usp=sharing
 
-Please do 'Save a copy in drive', then you can edit the new opened tab with a copy.
+### Please do 'Save a copy in drive', then you can edit the new opened tab with a copy.
 
+## Just CNN model. Trained on Google Colab using GPU. Takes 1-1.5 hours maximum.
+#### Make sure to only use GPU when you need it. While simply editing code, you can turn GPU off, to save your GPU quota (exact value unspecified).
 
-# Just CNN model. Trained on Google Colab using GPU. Takes 1-1.5 hours maximum.
+## Trained with 50% of data and tested on 50% of data.
 
-# Trained with 50% of data and tested on 50% of data.
+## Accuracy 0.69/1 = 0.69%, Cohen kappa score 0.38/1 = 0.38%
 
-# Accuracy 0.69/1 = 0.69%, Cohen kappa score 0.38/1 = 0.38%
-
-# Performs much better than random. Overall, moderate performance.
+## Performs much better than random. Overall, moderate performance, based on cohen kappa score. 
 
 Confusion matrix:
 
