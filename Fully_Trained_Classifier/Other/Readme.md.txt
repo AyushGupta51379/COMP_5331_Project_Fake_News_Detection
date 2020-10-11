@@ -1,1 +1,0 @@
-# Classifiers other than MVNN type as in paper
