@@ -13,7 +13,7 @@ Let me know if you encounter any difficulties.
 ### Only_CNN - by Ayush on Pixel info
 #### Data distribution - 50% for training, 50% for testing
 #### Scores - 69% Overall accuracy, 77% on rumor set, 60% on non rumor set. Cohen kappa score of 0.38 = Moderate performonace against random classifier.
-#### Colab notebook: Please 1st save a copy in drive then edit
+#### Colab notebook link: Please 1st save a copy in drive then edit:
 
 ###### https://colab.research.google.com/drive/1Gn6MFglgYsezdccKExZqGafvH7I4N4B7?usp=sharing
 
