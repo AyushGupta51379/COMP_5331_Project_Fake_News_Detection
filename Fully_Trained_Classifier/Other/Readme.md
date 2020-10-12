@@ -21,7 +21,7 @@ V2_vgg16-19-inception_v3.ipynb
 
 ### Scores:
 
-#### VGG-16
+#### VGG-16 - 72.8% accuracy, 0.43 cohen kappa score
 
 Accuracy: 0.7276974080771549
 
@@ -51,7 +51,7 @@ macro avg       0.72      0.71      0.72      6636
 
 weighted avg       0.73      0.73      0.73      6636
 
-#### VGG-19
+#### VGG-19 - 72.3% accuracy, 0.398 cohen kappa score
 
 Accuracy: 0.7233273056057866
 
@@ -81,7 +81,7 @@ macro avg       0.72      0.69      0.70      6636
 
 weighted avg       0.72      0.72      0.71      6636
 
-#### Inception_V3
+#### Inception_V3 - 61% accuracy, 0.235 cohen kappa score
 
 Accuracy: 0.6107594936708861
 
