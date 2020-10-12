@@ -16,7 +16,7 @@ Cohen Kappa Score: 0.36909864608608545
 
 Classification Report:
 
-              precision    recall  f1-score   support
+  precision    recall  f1-score   support
 
 
 class 0       0.60      0.69      0.64      2682
