@@ -2,7 +2,7 @@
 
 # Saved model: https://drive.google.com/file/d/1HB0Mg_iQvZ3w8MqwJ86rsI3E2Ippm6js/view?usp=sharing
 
-Associated with the notebook here: (uploaded in this github directory, direct link is:) https://github.com/AyushGupta51379/COMP_5331_Project_Fake_News_Detection/blob/master/Fully_Trained_Classifier/Only_CNN/COMP5331_Initial_Full_Classifier_Ayush_10102020%20(1).ipynb
+Associated with the notebook here: COMP5331_Initial_Full_Classifier_Ayush_10102020 (1).ipynb
 
 # Purpose
 
