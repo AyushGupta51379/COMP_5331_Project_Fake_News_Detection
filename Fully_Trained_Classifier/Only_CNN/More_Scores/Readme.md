@@ -32,6 +32,6 @@ CNN Only
 # Training: 6636 (including validation)
 
 # Testing:
-## Non rumor - 2682 (40% pf total testing)
+## Non rumor - 2682 (40% of total testing)
 ## Rumor - 3954 (60% of total testing)
 ## Total - 6636
