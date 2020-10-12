@@ -1,12 +1,23 @@
 # Classifiers other than MVNN type as in paper
 
-# VGG-16, VGG-19, Inception V3 - Added by AG (Chiu Wai)
+# VGG-16, VGG-19, Inception V3 - Added by AG (Chiu Wai), slightly modified by Ayush
 
-### Version 1 by Chiu Wai
+## Version 1 by Chiu Wai
 vgg16-19-inception_v3.ipynb
 
-### Version 2 by Ayush - just adding more metrics and making the history of all 3 models visible
+## Version 2 by Ayush - just adding more metrics and making the history of all 3 models visible
 V2_vgg16-19-inception_v3.ipynb
+
+## Train and Test
+
+### 6636 images for Train (including validation)
+
+### 6636 images for Testing
+
+#### Non rumor - 2661 images (40% of total testing)
+#### Rumor - 3975 images (60% of total testing)
+### Images data generator is used for both training and testing
+### Keras code, not pytorch
 
 ### Scores:
 
