@@ -32,3 +32,7 @@ Let me know if you encounter any difficulties.
 
 ###### https://colab.research.google.com/drive/1Gn6MFglgYsezdccKExZqGafvH7I4N4B7?usp=sharing
 
+# AG's updates
+
+## Frequency
+### 60% accuracy in frequency domain
