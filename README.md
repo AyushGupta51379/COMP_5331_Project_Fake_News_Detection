@@ -73,3 +73,36 @@ Cohen Kappa Score: 0.3370310212379519
 ```
 
 Not bad, it is believed to further improve after the pixel subnetwork is stable.
+
+# Fandy's updates
+
+## Pixel subnetwork (CNN without GRU)
+80% train, 20% validation, batch size = 64, lr = 0.01, epoch = 11
+
+Training time for each epoch: 2min
+```
+Accuracy: 0.8227896341463414
+Balanced Accuracy: 0.7972461356455833
+Confusion Matrix:
+ [[ 699  332]
+ [ 133 1460]]
+Cohen Kappa Score: 0.6154466789035238
+Classification Report:
+               precision    recall  f1-score   support
+
+   non-rumor       0.84      0.68      0.75      1031
+       rumor       0.81      0.92      0.86      1593
+
+    accuracy                           0.82      2624
+   macro avg       0.83      0.80      0.81      2624
+weighted avg       0.82      0.82      0.82      2624
+```
+
+## Pixel subnetwork (CNN with GRU)
+80% train, 20% validation, batch size = 64, lr = 0.01, epoch =  (can't be trained well with 50 epochs even, need much more epochs maybe)
+
+Training time for each epoch: 2min
+```
+
+```
+
