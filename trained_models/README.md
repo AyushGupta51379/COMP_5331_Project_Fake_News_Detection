@@ -5,4 +5,4 @@ https://drive.google.com/file/d/1-De0bXS4jN1YqBHtjHGkTEWHfbudSCHx/view?usp=shari
 
 After downloading, upload to google drive and load it from the pixel code
 
-## May create a API for the trained model later if possible
+## May create a API for the trained model later if possible...
