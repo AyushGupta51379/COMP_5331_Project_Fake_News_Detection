@@ -99,10 +99,25 @@ weighted avg       0.82      0.82      0.82      2624
 ```
 
 ## Pixel subnetwork (CNN with GRU)
-80% train, 20% validation, batch size = 64, lr = 0.01, epoch =  (can't be trained well with 50 epochs even, need much more epochs maybe)
+80% train, 20% validation, batch size = 64, lr = 0.01, epoch = 10 
 
 Training time for each epoch: 2min
 ```
+Accuracy: 0.6070884146341463
+Balanced Accuracy: 0.5134368548167192
+Confusion Matrix:
+ [[  77  955]
+ [  76 1516]]
+Cohen Kappa Score: 0.031608849790668025
+Classification Report:
+               precision    recall  f1-score   support
 
+   non-rumor       0.50      0.07      0.13      1032
+       rumor       0.61      0.95      0.75      1592
+
+    accuracy                           0.61      2624
+   macro avg       0.56      0.51      0.44      2624
+weighted avg       0.57      0.61      0.50      2624
 ```
+The GRU model can't be trained well even with 50 epochs, need much more epochs maybe. But that is very time-consuming.
 
