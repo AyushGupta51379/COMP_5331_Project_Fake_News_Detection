@@ -55,4 +55,21 @@ Classification Report:
    macro avg       0.70      0.70      0.70      2650
 weighted avg       0.72      0.72      0.72      2650
 ```
-`
+
+## MVNN Prototype
+
+I have created a prototype of MVNN, combining all things together. \\
+For details, see `MVNN_prototype.ipynb`.
+
+A quick run generates the following result:
+
+```
+Accuracy: 0.6806026365348399
+Balanced Accuracy: 0.668415730628062
+Confusion Matrix:
+ [[ 650  426]
+ [ 422 1157]]
+Cohen Kappa Score: 0.3370310212379519
+```
+
+Not bad, it is believed to further improve after the pixel subnetwork is stable.
