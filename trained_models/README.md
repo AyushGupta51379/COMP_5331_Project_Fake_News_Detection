@@ -1,5 +1,6 @@
 # Trained model shared via google drive link (for now)
-Fandy: After downloading, upload to google drive and load it from the pixel code
+Fandy: After downloading, upload to google drive and load it from the pixel code. May create a API for the trained model later if possible..
+       
 
 ## CNN without GRU model
 https://drive.google.com/file/d/1-De0bXS4jN1YqBHtjHGkTEWHfbudSCHx/view?usp=sharing
@@ -7,4 +8,4 @@ https://drive.google.com/file/d/1-De0bXS4jN1YqBHtjHGkTEWHfbudSCHx/view?usp=shari
 ## CNN with GRU model
 https://drive.google.com/file/d/1-DzeSTrw2I-lCkMxMMDfmwXZnHqqzo8r/view?usp=sharing
 
-## May create a API for the trained model later if possible...
+
