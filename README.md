@@ -34,5 +34,25 @@ Let me know if you encounter any difficulties.
 
 # AG's updates
 
-## Frequency
-### 60% accuracy in frequency domain
+## Frequent Domain Subnetwork
+
+Here is the freq subnetwork that gives the best result so far
+
+```
+Accuracy: 0.7181132075471698
+Balanced Accuracy: 0.699630584151476
+Confusion Matrix:
+ [[ 640  406]
+ [ 341 1263]]
+Cohen Kappa Score: 0.4036238987882377
+Classification Report:
+               precision    recall  f1-score   support
+
+     class 0       0.65      0.61      0.63      1046
+     class 1       0.76      0.79      0.77      1604
+
+    accuracy                           0.72      2650
+   macro avg       0.70      0.70      0.70      2650
+weighted avg       0.72      0.72      0.72      2650
+```
+`
