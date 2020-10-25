@@ -98,26 +98,26 @@ Classification Report:
 weighted avg       0.82      0.82      0.82      2624
 ```
 
-## Pixel subnetwork (CNN with GRU)
-80% train, 20% validation, batch size = 64, lr = 0.01, epoch = 10 
+## Pixel subnetwork (CNN with GRU, m = 2)
+80% train, 20% validation, batch size = 32, lr = 0.0001, epoch = 10
 
 Training time for each epoch: 2min
 ```
-Accuracy: 0.6070884146341463
-Balanced Accuracy: 0.5134368548167192
+Accuracy: 0.8250762195121951
+Balanced Accuracy: 0.8188904985138463
 Confusion Matrix:
- [[  77  955]
- [  76 1516]]
-Cohen Kappa Score: 0.031608849790668025
+ [[ 846  233]
+ [ 226 1319]]
+Cohen Kappa Score: 0.63840559521179
 Classification Report:
                precision    recall  f1-score   support
 
-   non-rumor       0.50      0.07      0.13      1032
-       rumor       0.61      0.95      0.75      1592
+   non-rumor       0.79      0.78      0.79      1079
+       rumor       0.85      0.85      0.85      1545
 
-    accuracy                           0.61      2624
-   macro avg       0.56      0.51      0.44      2624
-weighted avg       0.57      0.61      0.50      2624
+    accuracy                           0.83      2624
+   macro avg       0.82      0.82      0.82      2624
+weighted avg       0.82      0.83      0.82      2624
 ```
-The GRU model can't be trained well even with 50 epochs, need much more epochs maybe. But that is very time-consuming.
+The GRU model is working now, with batch norm layers added and a very small learning rate of 0.0001. Cheers.
 
