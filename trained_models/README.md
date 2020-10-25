@@ -5,7 +5,7 @@ Fandy: After downloading, upload to google drive and load it from the pixel code
 ## CNN without GRU model
 https://drive.google.com/file/d/1-De0bXS4jN1YqBHtjHGkTEWHfbudSCHx/view?usp=sharing
 
-## CNN with GRU model
-https://drive.google.com/file/d/1-DzeSTrw2I-lCkMxMMDfmwXZnHqqzo8r/view?usp=sharing
+## CNN with GRU model (m = 2)
+https://drive.google.com/file/d/1-Gqp8PKrMF35PPDkqisz6VmudZ3yoE0d/view?usp=sharing
 
 
