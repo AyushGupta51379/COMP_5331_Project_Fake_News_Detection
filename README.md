@@ -143,5 +143,5 @@ Classification Report:
    macro avg       0.82      0.81      0.81      2624
 weighted avg       0.82      0.82      0.82      2624
 ```
-The simpler Bi-GRU model is somehow much harder to train. I suggest use the original GRU model (the complicated one).
+The simpler Bi-GRU model is somehow much harder to train. I suggest use the original GRU model (m = 2).
 
