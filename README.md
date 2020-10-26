@@ -144,7 +144,9 @@ Classification Report:
 weighted avg       0.82      0.82      0.82      2624
 ```
 The simpler Bi-GRU model is somehow much harder to train. I suggest use the original GRU model (m = 2).
+
 80% train, 20% validation, batch size = 32, lr = 0.0001, epoch = 38, layer = 2
+
 ===== Start Validating ... =====
   0%|          | 0/331 [00:00<?, ?it/s]CNN_BiGRU : Epoch: 38/66  Val Loss: 0.020262  Val Accuracy: 79.283019
 Accuracy: 0.8006859756097561
