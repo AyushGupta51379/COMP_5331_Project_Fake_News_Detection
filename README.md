@@ -98,54 +98,6 @@ Classification Report:
 weighted avg       0.94      0.94      0.94      2624
 ```
 
-## Pixel subnetwork (CNN with GRU, m = 2)
-80% train, 20% validation, batch size = 32, lr = 0.0001, epoch = 10
-
-Training time for each epoch: 2min
-```
-Accuracy: 0.8250762195121951
-Balanced Accuracy: 0.8188904985138463
-Confusion Matrix:
- [[ 846  233]
- [ 226 1319]]
-Cohen Kappa Score: 0.63840559521179
-Classification Report:
-               precision    recall  f1-score   support
-
-   non-rumor       0.79      0.78      0.79      1079
-       rumor       0.85      0.85      0.85      1545
-
-    accuracy                           0.83      2624
-   macro avg       0.82      0.82      0.82      2624
-weighted avg       0.82      0.83      0.82      2624
-```
-The GRU model is working now, with batch norm layers added and a very small learning rate of 0.0001.
-
-
-## Pixel subnetwork (CNN with Bi-GRU, m = 1)
-80% train, 20% validation, batch size = 32, lr = 0.0001, epoch = 63
-
-Training time for each epoch: 2min
-```
-Accuracy: 0.8216463414634146
-Balanced Accuracy: 0.8070327613666015
-Confusion Matrix:
- [[ 782  297]
- [ 171 1374]]
-Cohen Kappa Score: 0.6250735026076253
-Classification Report:
-               precision    recall  f1-score   support
-
-   non-rumor       0.82      0.72      0.77      1079
-       rumor       0.82      0.89      0.85      1545
-
-    accuracy                           0.82      2624
-   macro avg       0.82      0.81      0.81      2624
-weighted avg       0.82      0.82      0.82      2624
-```
-The simpler Bi-GRU model is somehow much harder to train. I suggest use the original GRU model (m = 2).
-
-
 # Alfred's updates
 80% train, 20% validation, batch size = 32, lr = 0.0001, epoch = 38, layer = 2
 ```
