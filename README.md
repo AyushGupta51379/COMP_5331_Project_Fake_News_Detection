@@ -76,26 +76,26 @@ Not bad, it is believed to further improve after the pixel subnetwork is stable.
 
 # Fandy's updates
 
-## Pixel subnetwork (CNN without GRU)
-80% train, 20% validation, batch size = 64, lr = 0.01, epoch = 11
+## MVNN
+Link to the trained model: https://drive.google.com/file/d/1-1Io_bGiir9Wq4cgwzkdNrVzseRYX4pa/view?usp=sharing
 
-Training time for each epoch: 2min
+80% train, 20% validation, batch size = 32, lr = 0.0001, epoch = 16
+
+Training time for each epoch: 6 min
 ```
-Accuracy: 0.8227896341463414
-Balanced Accuracy: 0.7972461356455833
+Accuracy: 0.9359756097560976
+Balanced Accuracy: 0.9332094990773034
 Confusion Matrix:
- [[ 699  332]
- [ 133 1460]]
-Cohen Kappa Score: 0.6154466789035238
+ [[ 961   84]
+ [  84 1495]]
+Cohen Kappa Score: 0.866418998154607
 Classification Report:
                precision    recall  f1-score   support
-
-   non-rumor       0.84      0.68      0.75      1031
-       rumor       0.81      0.92      0.86      1593
-
-    accuracy                           0.82      2624
-   macro avg       0.83      0.80      0.81      2624
-weighted avg       0.82      0.82      0.82      2624
+   non-rumor       0.92      0.92      0.92      1045
+       rumor       0.95      0.95      0.95      1579
+    accuracy                           0.94      2624
+   macro avg       0.93      0.93      0.93      2624
+weighted avg       0.94      0.94      0.94      2624
 ```
 
 ## Pixel subnetwork (CNN with GRU, m = 2)
@@ -145,6 +145,8 @@ weighted avg       0.82      0.82      0.82      2624
 ```
 The simpler Bi-GRU model is somehow much harder to train. I suggest use the original GRU model (m = 2).
 
+
+# Alfred's updates
 80% train, 20% validation, batch size = 32, lr = 0.0001, epoch = 38, layer = 2
 ```
 ===== Start Validating ... =====
