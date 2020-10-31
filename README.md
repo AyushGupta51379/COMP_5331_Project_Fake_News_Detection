@@ -97,7 +97,10 @@ Classification Report:
    macro avg       0.93      0.93      0.93      2624
 weighted avg       0.94      0.94      0.94      2624
 ```
-
+## MVNN without freq
+```
+(In training)
+```
 # Alfred's updates
 80% train, 20% validation, batch size = 32, lr = 0.0001, epoch = 38, layer = 2
 ```
