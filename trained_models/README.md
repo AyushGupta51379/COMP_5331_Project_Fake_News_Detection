@@ -1,12 +1,9 @@
-# Fandy's updates
+# Fandy's updates (31 Oct 2020)
 
 ## Trained model shared via google drive links
 
-## CNN with GRU (m = 2) - suggested
-https://drive.google.com/file/d/1-Gqp8PKrMF35PPDkqisz6VmudZ3yoE0d/view?usp=sharing
+## MVNN
+https://drive.google.com/file/d/1-1Io_bGiir9Wq4cgwzkdNrVzseRYX4pa/view?usp=sharing
 
-## CNN with Bi-GRU (m = 1)
-https://drive.google.com/file/d/1-YLQ6t7hh2goyyRQX8Dg392rblLEdgG8/view?usp=sharing
+## MVNN_wout_freq (currently in training...)
 
-## CNN model
-https://drive.google.com/file/d/1-De0bXS4jN1YqBHtjHGkTEWHfbudSCHx/view?usp=sharing
