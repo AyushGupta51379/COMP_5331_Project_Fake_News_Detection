@@ -74,7 +74,7 @@ Cohen Kappa Score: 0.3370310212379519
 
 Not bad, it is believed to further improve after the pixel subnetwork is stable.
 
-# Fandy's updates
+# Fandy's updates (updated on 31 Oct 2020)
 
 ## MVNN
 Link to the trained model: https://drive.google.com/file/d/1-1Io_bGiir9Wq4cgwzkdNrVzseRYX4pa/view?usp=sharing
