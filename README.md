@@ -120,6 +120,31 @@ Classification Report:
    macro avg       0.81      0.81      0.81      2624
 weighted avg       0.82      0.82      0.82      2624
 ```
+
+## MVNN without attention
+Link to the trained model: https://drive.google.com/file/d/1-0brK4HcSfF0E5d6sKhj54kAnak-qobA/view?usp=sharing
+
+Same hyper-parameters as above, epoch = 8
+
+Training time for each epoch: 5 min
+```
+Accuracy: 0.8189786585365854
+Balanced Accuracy: 0.8131245840140376
+Confusion Matrix:
+ [[ 823  227]
+ [ 248 1326]]
+Cohen Kappa Score: 0.6241712408982741
+Classification Report:
+               precision    recall  f1-score   support
+
+   non-rumor       0.77      0.78      0.78      1050
+       rumor       0.85      0.84      0.85      1574
+
+    accuracy                           0.82      2624
+   macro avg       0.81      0.81      0.81      2624
+weighted avg       0.82      0.82      0.82      2624
+```
+
 # Alfred's updates
 80% train, 20% validation, batch size = 32, lr = 0.0001, epoch = 38, layer = 2
 ```
