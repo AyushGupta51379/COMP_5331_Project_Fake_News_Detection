@@ -141,3 +141,38 @@ Classification Report:
    macro avg       0.79      0.79      0.79      2624
 weighted avg       0.80      0.80      0.80      2624
 ```
+train on the twitter dataset. 
+learning_rate = 0.0001 # adopt a small lr to ensure convergence
+batch_size = 32
+
+```
+
+===== Start Validating ... =====
+[Test] [Epoch 15] 2 / 2 batches tested. Test Loss: 0.957414
+Accuracy: 0.671875
+Balanced Accuracy: 0.6691104594330402
+Confusion Matrix:
+ [[25  8]
+ [13 18]]
+Cohen Kappa Score: 0.3398821218074656
+Classification Report:
+               precision    recall  f1-score   support
+
+   non-rumor       0.66      0.76      0.70        33
+       rumor       0.69      0.58      0.63        31
+
+    accuracy                           0.67        64
+   macro avg       0.68      0.67      0.67        64
+weighted avg       0.67      0.67      0.67        64
+
+
+MVNN_wout_freq: [Epoch 16] [Iter 1/9] Loss: 0.113392  Acc: 1.000000
+Training:  Avg Loss = 0.113392, Avg Acc = 1.000000
+Training Time:      0.128 mins
+MVNN_wout_freq: [Epoch 17] [Iter 1/9] Loss: 0.092333  Acc: 1.000000
+Training:  Avg Loss = 0.092333, Avg Acc = 1.000000
+Training Time:      0.128 mins
+Training is stopped at [Epoch 17] as loss is already very low (0.092333)!
+
+===== Finished Training & Validating =====
+```
