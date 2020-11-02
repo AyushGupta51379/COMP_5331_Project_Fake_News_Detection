@@ -145,6 +145,32 @@ Classification Report:
 weighted avg       0.82      0.82      0.82      2624
 ```
 
+## MVNN without GRU
+Link to the trained model: https://drive.google.com/file/d/1-hpX0dsww13hgqSB561O85k5yyyVq2J7/view?usp=sharing
+
+Same hyper-parameters as above, epoch = 12
+
+Training time for each epoch: 5 min
+```
+Accuracy: 0.6798780487804879
+Balanced Accuracy: 0.6625827247745767
+Confusion Matrix:
+ [[ 605  446]
+ [ 394 1179]]
+Cohen Kappa Score: 0.32785696468333814
+Classification Report:
+               precision    recall  f1-score   support
+
+   non-rumor       0.61      0.58      0.59      1051
+       rumor       0.73      0.75      0.74      1573
+
+    accuracy                           0.68      2624
+   macro avg       0.67      0.66      0.66      2624
+weighted avg       0.68      0.68      0.68      2624
+```
+The training accuracy can reach 97%, but the test accuracy is only 68%. This means the model is just overfitting and does not really learn the underlying pattern of fake mews images without the help of GRU.
+
+
 # Alfred's updates
 80% train, 20% validation, batch size = 32, lr = 0.0001, epoch = 38, layer = 2
 ```
