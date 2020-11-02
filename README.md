@@ -76,7 +76,33 @@ Not bad, it is believed to further improve after the pixel subnetwork is stable.
 
 # Fandy's updates (updated on 31 Oct 2020)
 
-## MVNN
+## MVNN (Correctly tested)
+Link to the trained model: https://drive.google.com/file/d/1-eXekn8r9NkkJPCN9JVUa-AB9aOMhZ9R/view?usp=sharing
+
+80% train, 20% validation, batch size = 32, lr = 0.0001, epoch = 6, stop at training loss < 0.1
+
+Training time for each epoch: 5 min
+
+```
+Accuracy: 0.8288871951219512
+Balanced Accuracy: 0.8299214671569295
+Confusion Matrix:
+ [[ 876  173]
+ [ 276 1299]]
+Cohen Kappa Score: 0.6491986965718315
+Classification Report:
+               precision    recall  f1-score   support
+
+   non-rumor       0.76      0.84      0.80      1049
+       rumor       0.88      0.82      0.85      1575
+
+    accuracy                           0.83      2624
+   macro avg       0.82      0.83      0.82      2624
+weighted avg       0.83      0.83      0.83      2624
+```
+
+
+## MVNN (may NOT be correctly tested)
 Link to the trained model: https://drive.google.com/file/d/1-1Io_bGiir9Wq4cgwzkdNrVzseRYX4pa/view?usp=sharing
 
 80% train, 20% validation, batch size = 32, lr = 0.0001, epoch = 16
