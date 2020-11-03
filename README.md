@@ -261,3 +261,26 @@ Training is stopped at [Epoch 17] as loss is already very low (0.092333)!
 
 ===== Finished Training & Validating =====
 ```
+
+use the  model trained from Weibo on Twitter
+
+```
+===== Start Validating ... =====
+[Test] 10 / 11 batches tested
+[Test] 11 / 11 batches tested
+Accuracy: 0.5255681818181818
+Balanced Accuracy: 0.5239664082687339
+Confusion Matrix:
+ [[ 78  94]
+ [ 73 107]]
+Cohen Kappa Score: 0.048063220624433245
+Classification Report:
+               precision    recall  f1-score   support
+
+   non-rumor       0.52      0.45      0.48       172
+       rumor       0.53      0.59      0.56       180
+
+    accuracy                           0.53       352
+   macro avg       0.52      0.52      0.52       352
+weighted avg       0.52      0.53      0.52       352
+```
