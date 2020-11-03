@@ -74,31 +74,31 @@ Cohen Kappa Score: 0.3370310212379519
 
 Not bad, it is believed to further improve after the pixel subnetwork is stable.
 
-# Fandy's updates (updated on 31 Oct 2020)
+# Fandy's updates (updated on 4 Nov 2020)
 
-## MVNN (Correct)
-Link to the trained model: https://drive.google.com/file/d/1-eXekn8r9NkkJPCN9JVUa-AB9aOMhZ9R/view?usp=sharing
+## MVNN (updated freq)
+Link to the trained model: https://drive.google.com/file/d/1-GnaZw9ZsYxq-2LiQtCNuBjtLwZl2T2E/view?usp=sharing
 
 80% train, 20% validation, batch size = 32, lr = 0.0001, epoch = 6, stop at training loss < 0.1
 
 Training time for each epoch: 5 min
 
 ```
-Accuracy: 0.8288871951219512
-Balanced Accuracy: 0.8299214671569295
+Accuracy: 0.8220274390243902
+Balanced Accuracy: 0.8182773000737064
 Confusion Matrix:
- [[ 876  173]
- [ 276 1299]]
-Cohen Kappa Score: 0.6491986965718315
+ [[ 830  207]
+ [ 260 1327]]
+Cohen Kappa Score: 0.6309665637531666
 Classification Report:
                precision    recall  f1-score   support
 
-   non-rumor       0.76      0.84      0.80      1049
-       rumor       0.88      0.82      0.85      1575
+   non-rumor       0.76      0.80      0.78      1037
+       rumor       0.87      0.84      0.85      1587
 
-    accuracy                           0.83      2624
-   macro avg       0.82      0.83      0.82      2624
-weighted avg       0.83      0.83      0.83      2624
+    accuracy                           0.82      2624
+   macro avg       0.81      0.82      0.82      2624
+weighted avg       0.82      0.82      0.82      2624
 ```
 
 ## MVNN without freq (Correct)
