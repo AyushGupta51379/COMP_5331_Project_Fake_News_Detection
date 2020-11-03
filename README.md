@@ -194,8 +194,6 @@ Classification Report:
    macro avg       0.80      0.80      0.80      2624
 weighted avg       0.81      0.81      0.81      2624
 ```
-The training accuracy can reach 97%, but the test accuracy is only 68%. This means the model is just overfitting and does not really learn the underlying pattern of fake mews images without the help of GRU.
-
 
 # Alfred's updates
 80% train, 20% validation, batch size = 32, lr = 0.0001, epoch = 38, layer = 2
