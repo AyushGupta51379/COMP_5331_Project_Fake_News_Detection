@@ -224,7 +224,7 @@ weighted avg       0.81      0.81      0.81      2624
 
 # Alfred's updates
 
-train on the twitter dataset. 
+train MVNN on the twitter dataset. 
 
 learning_rate = 0.0001 # adopt a small lr to ensure convergence
 
@@ -232,34 +232,24 @@ batch_size = 32
 
 ```
 
+
 ===== Start Validating ... =====
-[Test] [Epoch 15] 2 / 2 batches tested. Test Loss: 0.957414
-Accuracy: 0.671875
-Balanced Accuracy: 0.6691104594330402
+[Test] 2 / 2 batches tested
+Accuracy: 0.703125
+Balanced Accuracy: 0.6990196078431372
 Confusion Matrix:
- [[25  8]
- [13 18]]
-Cohen Kappa Score: 0.3398821218074656
+ [[26  8]
+ [11 19]]
+Cohen Kappa Score: 0.4003944773175543
 Classification Report:
                precision    recall  f1-score   support
 
-   non-rumor       0.66      0.76      0.70        33
-       rumor       0.69      0.58      0.63        31
+   non-rumor       0.70      0.76      0.73        34
+       rumor       0.70      0.63      0.67        30
 
-    accuracy                           0.67        64
-   macro avg       0.68      0.67      0.67        64
-weighted avg       0.67      0.67      0.67        64
-
-
-MVNN_wout_freq: [Epoch 16] [Iter 1/9] Loss: 0.113392  Acc: 1.000000
-Training:  Avg Loss = 0.113392, Avg Acc = 1.000000
-Training Time:      0.128 mins
-MVNN_wout_freq: [Epoch 17] [Iter 1/9] Loss: 0.092333  Acc: 1.000000
-Training:  Avg Loss = 0.092333, Avg Acc = 1.000000
-Training Time:      0.128 mins
-Training is stopped at [Epoch 17] as loss is already very low (0.092333)!
-
-===== Finished Training & Validating =====
+    accuracy                           0.70        64
+   macro avg       0.70      0.70      0.70        64
+weighted avg       0.70      0.70      0.70        64
 ```
 
 use the  model trained from Weibo on Twitter
