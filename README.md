@@ -76,7 +76,7 @@ Not bad, it is believed to further improve after the pixel subnetwork is stable.
 
 # Fandy's updates (updated on 31 Oct 2020)
 
-## MVNN (Correctly tested)
+## MVNN (Correct)
 Link to the trained model: https://drive.google.com/file/d/1-eXekn8r9NkkJPCN9JVUa-AB9aOMhZ9R/view?usp=sharing
 
 80% train, 20% validation, batch size = 32, lr = 0.0001, epoch = 6, stop at training loss < 0.1
@@ -123,7 +123,7 @@ Classification Report:
    macro avg       0.93      0.93      0.93      2624
 weighted avg       0.94      0.94      0.94      2624
 ```
-## MVNN without freq
+## MVNN without freq (Correct)
 Link to the trained model: https://drive.google.com/file/d/1-in0Uly1vlRHvqaI7k1PGjZIDKuKZfFV/view?usp=sharing
 
 Same hyper-parameters as above, epoch = 5
@@ -147,7 +147,7 @@ Classification Report:
 weighted avg       0.82      0.82      0.81      2624
 ```
 
-## MVNN without attention
+## MVNN without attention (Correct)
 Link to the trained model: https://drive.google.com/file/d/1-26f0Tfl0-EmMjYM1LaYwi2UJL4w0Mtm/view?usp=sharing
 
 Same hyper-parameters as above, epoch = 5
@@ -171,7 +171,7 @@ Classification Report:
 weighted avg       0.83      0.83      0.82      2624
 ```
 
-## MVNN without GRU
+## MVNN without GRU (Correct)
 Link to the trained model: https://drive.google.com/file/d/1-6Z0KSFNeR0rr17JODrDpJbm8lcFMYCB/view?usp=sharing
 
 Same hyper-parameters as above, epoch = 8
