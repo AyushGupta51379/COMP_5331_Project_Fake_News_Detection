@@ -76,7 +76,7 @@ Not bad, it is believed to further improve after the pixel subnetwork is stable.
 
 # Fandy's updates (updated on 4 Nov 2020)
 
-## MVNN (updated freq)
+## MVNN
 Link to the trained model: https://drive.google.com/file/d/1-GnaZw9ZsYxq-2LiQtCNuBjtLwZl2T2E/view?usp=sharing
 
 80% train, 20% validation, batch size = 32, lr = 0.0001, epoch = 6, stop at training loss < 0.1
@@ -101,7 +101,7 @@ Classification Report:
 weighted avg       0.82      0.82      0.82      2624
 ```
 
-## MVNN without freq (Correct)
+## MVNN without freq
 Link to the trained model: https://drive.google.com/file/d/1-in0Uly1vlRHvqaI7k1PGjZIDKuKZfFV/view?usp=sharing
 
 Same hyper-parameters as above, epoch = 5
@@ -125,32 +125,7 @@ Classification Report:
 weighted avg       0.82      0.82      0.81      2624
 ```
 
-## MVNN without pixel (Correct)
-Link to the trained model: https://drive.google.com/file/d/1-K2fuiyJ-ZZcadKsVWCnEyP123g_3Fy2/view?usp=sharing
-
-Same hyper-parameters as above, epoch = 10
-
-Training time for each epoch: 4 min
-
-```
-Accuracy: 0.6764481707317073
-Balanced Accuracy: 0.6605994658523598
-Confusion Matrix:
- [[ 613  448]
- [ 401 1162]]
-Cohen Kappa Score: 0.3235002241054912
-Classification Report:
-               precision    recall  f1-score   support
-
-   non-rumor       0.60      0.58      0.59      1061
-       rumor       0.72      0.74      0.73      1563
-
-    accuracy                           0.68      2624
-   macro avg       0.66      0.66      0.66      2624
-weighted avg       0.67      0.68      0.68      2624
-```
-
-## MVNN without attention (Correct)
+## MVNN without attention (to be updated)
 Link to the trained model: https://drive.google.com/file/d/1-26f0Tfl0-EmMjYM1LaYwi2UJL4w0Mtm/view?usp=sharing
 
 Same hyper-parameters as above, epoch = 5
@@ -174,7 +149,7 @@ Classification Report:
 weighted avg       0.83      0.83      0.82      2624
 ```
 
-## MVNN without GRU (Correct)
+## MVNN without GRU (to be updated)
 Link to the trained model: https://drive.google.com/file/d/1-6Z0KSFNeR0rr17JODrDpJbm8lcFMYCB/view?usp=sharing
 
 Same hyper-parameters as above, epoch = 8
@@ -198,7 +173,7 @@ Classification Report:
 weighted avg       0.81      0.81      0.81      2624
 ```
 
-## MVNN without branches (Correct)
+## MVNN without branches (to be updated)
 Link to the trained model: https://drive.google.com/file/d/1-75gl1akpCGlVcJXuemHBtzNoImWD0Aa/view?usp=sharing
 
 Same hyper-parameters as above, epoch = 10
