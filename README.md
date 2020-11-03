@@ -130,7 +130,7 @@ Link to the trained model: https://drive.google.com/file/d/1-K2fuiyJ-ZZcadKsVWCn
 
 Same hyper-parameters as above, epoch = 10
 
-Training time for each epoch: 5 min
+Training time for each epoch: 4 min
 
 ```
 Accuracy: 0.6764481707317073
