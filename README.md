@@ -102,27 +102,27 @@ weighted avg       0.82      0.82      0.82      2624
 ```
 
 ## MVNN without freq
-Link to the trained model: https://drive.google.com/file/d/1-in0Uly1vlRHvqaI7k1PGjZIDKuKZfFV/view?usp=sharing
+Link to the trained model: https://drive.google.com/file/d/1-VN60TlFCGZLwv31CVDrY4iUvuaCklsw/view?usp=sharing
 
 Same hyper-parameters as above, epoch = 5
 
 Training time for each epoch: 5 min
 ```
-Accuracy: 0.8166920731707317
-Balanced Accuracy: 0.7944524641760105
+Accuracy: 0.8117378048780488
+Balanced Accuracy: 0.797647948915823
 Confusion Matrix:
- [[ 717  332]
- [ 149 1426]]
-Cohen Kappa Score: 0.6065748737879089
+ [[ 763  286]
+ [ 208 1367]]
+Cohen Kappa Score: 0.6027802343746649
 Classification Report:
                precision    recall  f1-score   support
 
-   non-rumor       0.83      0.68      0.75      1049
-       rumor       0.81      0.91      0.86      1575
+   non-rumor       0.79      0.73      0.76      1049
+       rumor       0.83      0.87      0.85      1575
 
-    accuracy                           0.82      2624
-   macro avg       0.82      0.79      0.80      2624
-weighted avg       0.82      0.82      0.81      2624
+    accuracy                           0.81      2624
+   macro avg       0.81      0.80      0.80      2624
+weighted avg       0.81      0.81      0.81      2624
 ```
 
 ## MVNN without attention
