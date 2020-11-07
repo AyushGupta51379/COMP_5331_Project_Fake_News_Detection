@@ -109,7 +109,7 @@ macro avg       0.62      0.62      0.61      6636
 
 weighted avg       0.64      0.61      0.61      6636
 
-# Final version (V4):
+# Final version (V4) by Ayush
 
 
 ## VGG-16
