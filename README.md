@@ -257,19 +257,23 @@ Finalized scores of our baseline models VGG-16 and VGG-19, and Simple Sequential
 
 ## VGG-16 and VGG-19
 
+Class 0 and 1
+
 Type of model, Precision, Recall, f1-score, Accuracy, Cohen Kappa
 ```
-VGG-16 69%, 73% 57%,82% 62%,78% 72% 0.40
+VGG-16   69%,73%   57%,82%   62%,78%   72%   0.40
 
-VGG-19 59%, 79% 76%,64% 66%,71% 69% 0.38
+VGG-19   59%,79%   76%,64%   66%,71%   69%   0.38
 ```
 ## Simple Sequential Model of CNN
 
+Class 0 and 1
+
 ```
 Num of CNN layers, Precision, Recall, f1-score, Accuracy, Cohen Kappa
-1 61%, 72% 56%,76% 59%,74% 66% 0.332
-2 68%, 77% 67%,78% 68%,77% 73% 0.451
-3 58%, 78% 71%,66% 64%,72% 70% 0.357
-4 58%, 78% 71%,66% 64%,72% 68% 0.356
+1   61%,72%   56%,76%   59%,74%   66%   0.332
+2   68%,77%   67%,78%   68%,77%   73%   0.451
+3   58%,78%   71%,66%   64%,72%   70%   0.357
+4   58%,78%   71%,66%   64%,72%   68%   0.356
 
 ```
