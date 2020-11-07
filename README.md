@@ -248,4 +248,28 @@ Classification Report:
     accuracy                           0.53       352
    macro avg       0.52      0.52      0.52       352
 weighted avg       0.52      0.53      0.52       352
+
+```
+
+# Ayush updates on 07-11-2020 -
+
+Finalized scores of our baseline models VGG-16 and VGG-19, and Simple Sequential model of CNN have been updated in report.
+
+## VGG-16 and VGG-19
+
+Type of model, Precision, Recall, f1-score, Accuracy, Cohen Kappa
+```
+VGG-16 69%, 73% 57%,82% 62%,78% 72% 0.40
+
+VGG-19 59%, 79% 76%,64% 66%,71% 69% 0.38
+```
+## Simple Sequential Model of CNN
+
+```
+Num of CNN layers, Precision, Recall, f1-score, Accuracy, Cohen Kappa
+1 61%, 72% 56%,76% 59%,74% 66% 0.332
+2 68%, 77% 67%,78% 68%,77% 73% 0.451
+3 58%, 78% 71%,66% 64%,72% 70% 0.357
+4 58%, 78% 71%,66% 64%,72% 68% 0.356
+
 ```
