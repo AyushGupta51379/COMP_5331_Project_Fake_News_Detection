@@ -108,3 +108,100 @@ accuracy                           0.61      6636
 macro avg       0.62      0.62      0.61      6636
 
 weighted avg       0.64      0.61      0.61      6636
+
+# Final version (V4):
+
+
+## VGG-16
+
+Accuracy: 0.7182674199623352
+
+Balanced Accuracy: 0.6948781482626445
+
+Confusion Matrix:
+
+[[ 615  466]
+
+[ 282 1292]]
+
+Cohen Kappa Score: 0.4004303989160324
+
+Classification Report:
+
+precision    recall  f1-score   support
+
+
+class 0       0.69      0.57      0.62      1081
+
+class 1       0.73      0.82      0.78      1574
+
+
+accuracy                           0.72      2655
+
+macro avg       0.71      0.69      0.70      2655
+
+weighted avg       0.71      0.72      0.71      2655
+
+## VGG-19
+
+Accuracy: 0.688512241054614
+
+Balanced Accuracy: 0.6991920042033648
+
+Confusion Matrix:
+
+[[ 818  263]
+
+[ 564 1010]]
+
+Cohen Kappa Score: 0.38173769584282846
+
+Classification Report:
+
+precision    recall  f1-score   support
+
+
+class 0       0.59      0.76      0.66      1081
+
+class 1       0.79      0.64      0.71      1574
+
+accuracy                           0.69      2655
+
+macro avg       0.69      0.70      0.69      2655
+
+weighted avg       0.71      0.69      0.69      2655
+
+## Inception-v3
+
+### Removed due to some weird issues - it did not learn anything
+
+Accuracy: 0.5928436911487759
+
+Balanced Accuracy: 0.5
+
+Confusion Matrix:
+
+[[   0 1081]
+
+[   0 1574]]
+
+Cohen Kappa Score: 0.0
+
+Classification Report:
+
+precision    recall  f1-score   support
+
+
+class 0       0.00      0.00      0.00      1081
+
+class 1       0.59      1.00      0.74      1574
+
+
+accuracy                           0.59      2655
+
+macro avg       0.30      0.50      0.37      2655
+
+weighted avg       0.35      0.59      0.44      2655
+
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
