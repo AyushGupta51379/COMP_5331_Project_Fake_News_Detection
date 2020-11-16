@@ -1,10 +1,10 @@
 # Here are our Baseline models and Sequential model of CNN
 
-# VGG16, VGG19 and InceptionV3 are in Baselines Folder
+### VGG16, VGG19 and InceptionV3 are in Baselines Folder
 
-# Sequential models of CNN are in Sequential_of_CNN Folder
+### Sequential models of CNN are in Sequential_of_CNN Folder
 
-### We experimented with number of CNN layers = 1,2,3,4.
+#### We experimented with number of CNN layers = 1,2,3,4.
 
 The codes are present in their respective folders.
 
