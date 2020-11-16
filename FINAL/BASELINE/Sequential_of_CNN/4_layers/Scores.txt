@@ -1,0 +1,19 @@
+Accuracy: 0.6806026365348399
+
+Balanced Accuracy: 0.6854681541567688
+
+Confusion Matrix:
+ [[ 741  305]
+ [ 543 1066]]
+
+Cohen Kappa Score: 0.3567354719484621
+
+Classification Report:
+               precision    recall  f1-score   support
+
+     class 0       0.58      0.71      0.64      1046
+     class 1       0.78      0.66      0.72      1609
+
+    accuracy                           0.68      2655
+   macro avg       0.68      0.69      0.68      2655
+weighted avg       0.70      0.68      0.68      2655
