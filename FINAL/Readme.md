@@ -5,9 +5,7 @@
 ### MVNN folder contains MVNN model and its different variations.
 
 # 1 & 2. How to compile & run the code?
-The source codes are all Python notebooks: Run via Jupyter notebook or by Uploading to Google Colab.
-Image Dataset will be download by running the code.
-
+The source codes are all Python notebooks. Run the codes via Jupyter notebook or via Google Colab.
 
 # 3. The description of each source file
 ## MVNN_training_validation.ipynb (in the MVNN folder): 
