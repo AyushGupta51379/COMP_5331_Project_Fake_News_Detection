@@ -4,18 +4,26 @@
 
 ### MVNN folder contains MVNN model and its different variations.
 
-# How to run the code?
-
-### They are all Python notebooks: Run via Jupyter notebook or by Uploading to Google Colab.
-
-The codes will use internet, publically available Image data set. You do not need to worry about it. Just run the code, on a GPU. 
-
-Since they are already interactive notebooks, you can easily see their code with outputs.
-
-### Use GPU as the training needs GPU.
-
-Training time is generally within 30 minutes to 90 minutes, while using a Google Colab GPU.
-
-Here is a useful guide: https://colab.research.google.com/drive/1P7okDVh6viCIOkii6UAF2O9sTAcKGNWq
+# 1 & 2. How to compile & run the code?
+The source codes are all Python notebooks: Run via Jupyter notebook or by Uploading to Google Colab.
+Image Dataset will be download by running the code.
 
 
+# 3. The description of each source file
+# MVNN_training_validation.ipynb (in the MVNN folder): 
+The source notebook for training and validating the MVNN models. There are in total 6 models: MVNN, MVNN_wout_freq (i.e., MVNN without the frequency subnetwork), MVNN_wout_pixel (MVNN without the pixel subnetwork), MVNN_wout_att (MVNN without attention mechanism), MVNN_wout_GRU (MVNN without GRUs in the pixel subnetwork), MVNN_wout_branches (MVNN without branches in the pixel subnetwork). The model can be selected by modifying the "modelname" variable under the "Hyper-parameters" Section.
+
+# MVNN_prediction_new_set.ipynb (in the MVNN folder): 
+The source notebook for loading the trained MVNN models to predict a new set (i.e. Twitter dataset).
+
+
+# 4. An example to show how to run the program
+Run MVNN_training_validation.ipynb directly, it will first load the necessary packages, then requires for google drive permission to mount the google drive (since we want to save the trained model on the drive). Then, it will start downloading the Weibo dataset. Later we load all the python classes. With the default hyper-parameters and selection of model, the training starts with GPU by running the code block under the "Let's Start Training" Section. The validation will be run whilst the training. After training, it will plot the training graph and save the trained model on the mounted google drive. A validation process is also given in the last code block.
+
+The procedure to run Run MVNN_prediction_new_set.ipynb is basically the same, except that it directly downloads the trained MVNN model (there are 6 models) and performs prediction on a completely new set (i.e., Twitter dataset).
+
+# 5. the operating system you tested your program
+The program is tested on Google Colab
+
+# 6. others
+N/A
