@@ -24,4 +24,7 @@ The source notebook for loading the trained MVNN models to predict a new set (i.
 The program is tested on Google Colab
 
 # 6. others
-N/A
+Use GPU as the training needs GPU.
+Training time is generally within 30 minutes to 90 minutes, while using a Google Colab GPU.
+
+Here is a useful guide: https://colab.research.google.com/drive/1P7okDVh6viCIOkii6UAF2O9sTAcKGNWq
