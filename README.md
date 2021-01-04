@@ -1,5 +1,14 @@
 # COMP_5331_Project_Fake_News_Detection
 
+#### This project focuses on using Deep learning for Image classification, specifically on correctly classifying images as real or fake in news articles.
+
+#### This is a course project, from COMP 5331: Knowledge Discovery in Databases, taken at HKUST (The Hong Kong University of Science and Technology).
+
+#### The presentataion can be found here: 
+##### https://github.com/AyushGupta51379/COMP_5331_Project_Fake_News_Detection/blob/master/Group%2014%20Presentation%20COMP%205331.pptx
+#### The report can be found here: 
+##### https://github.com/AyushGupta51379/COMP_5331_Project_Fake_News_Detection/blob/master/Report_COMP5331_Project_Github.pdf
+
 ## Folders
 
 ### Fully_trained_classifier
