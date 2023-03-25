@@ -4,8 +4,8 @@
 
 #### This is a course project, from COMP 5331: Knowledge Discovery in Databases, taken at HKUST (The Hong Kong University of Science and Technology).
 
-#### The presentataion can be found here: 
-##### https://github.com/AyushGupta51379/COMP_5331_Project_Fake_News_Detection/blob/master/Group%2014%20Presentation%20COMP%205331.pptx
+#### The presentataion can be found here (download it to view properly): 
+##### https://github.com/AyushGupta51379/COMP_5331_Project_Fake_News_Detection/blob/master/Group%2014%20Presentation%20COMP%205331.pdf
 #### The report can be found here: 
 ##### https://github.com/AyushGupta51379/COMP_5331_Project_Fake_News_Detection/blob/master/Report_COMP5331_Project_Github.pdf
 
